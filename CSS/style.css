@@ -187,3 +187,85 @@ margin-left: 150px;
     display: block;
     text-align: center;
 }
+
+
+/*contrub*/
+
+.contributor h2{
+    color: #fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+.price-row{
+    width: 20%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 25px;
+}
+.price_col{
+    background-color:#34495e;
+    border: #00ff92 solid 5px;
+    padding: 10% 15%;
+    flex-direction: row;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price_col p{
+font-size: 22px;
+}
+.price_col h3{
+font-size: 44px;
+margin: 20px 0 40px;
+font-weight: 500;
+}
+.price_col h3 span{
+    font-size: 16px;
+}
+.price_col ul {
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style:circle;
+    
+}
+.price_col ul li{
+    margin: 15px 0;
+}
+.price_col ul li ::before{
+    content: '\2022';
+    color: #00ff92;
+    font-weight: bold;
+    margin-right: 8px;
+
+}
+.price_col button{
+    width: 100%;
+    padding: 14px 0;
+    background-color: transparent;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid #00ff92;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s ;
+}
+.price_col button a {
+    color: #fff;
+    text-decoration: none;
+}
+.price_col button a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.price_col button:hover{
+    background-color: #00ff92;
+    color: #000;
+}
