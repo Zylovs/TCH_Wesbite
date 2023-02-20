@@ -104,11 +104,32 @@ ul {
     color: #00ff92;
     text-align: center;
   }
+
+
+
+
+  /*home styles*/
 .aboutus{
     display: block;
     background-color: #a2a2a2;
     height: 50vh;
 }
+
+.aboutus p{
+    text-align: center;
+    font-weight: bolder;
+}
+.aboutus hr{
+    color: #000;
+    border-width: 10 px;
+}
+.aboutus ul{
+ text-align: center;
+ font-size: 15px;
+}
+
+
+/*Discord styles*/
 .btndis{
     text-align: center;
     justify-content: center;
@@ -150,6 +171,7 @@ margin-left: 150px;
     height: 30vh;
 }
 
+/*minecraft styles*/
 .mc{
     display: block;
     background-color: #a2a2a2;
