@@ -144,16 +144,19 @@ ul {
 .imgs{
     width: 150px;
     height: auto;
-    margin-left: 550px;
+    position: relative;
+    left: 700px;
     justify-content: center;
     align-self: center;
     align-items: center;
 }
 .left{
-margin-left: 150px;
+position: relative;
+left: 15%;
 }
 .right{
-    margin-left: 250px;
+    position: relative;
+    right:-60%;
 }
 .btndis a{
     color: #fff;
@@ -268,4 +271,68 @@ font-weight: 500;
 .price_col button:hover{
     background-color: #00ff92;
     color: #000;
+}
+
+@media screen and (max-width: 1024px ) and (max-height: 800px){  
+    .imgs{
+        position: relative;
+        left: 25%;
+        }
+        .right{
+            position: relative;
+            left: 45%;
+        }
+
+        .discord{
+            height: 54vh;
+        }
+}
+
+@media screen and (max-width: 768px ) and (max-height: 800px){  
+    .imgs{
+        position: relative;
+        left: 25%;
+        }
+        .right{
+            position: relative;
+            left: 30%;
+        }
+        .discord{
+            height: 44vh;
+        }
+        .price-row{
+            width: 30%;
+        }
+}
+
+@media screen and (max-width: 425px ) and (max-height: 800px){  
+    .imgs{
+        position: relative;
+        left: 5%;
+       top: 30%;
+        }
+        .right{
+            position: relative;
+            top: 40%;
+        }
+        .left{
+            position: relative;
+            left: 40%;
+        }
+        .discord{
+            height: 60vh;
+        }
+        .price-row{
+            width: 50%;
+        }
+}
+
+
+@media screen and (max-width: 320px ) and (max-height: 800px){  
+    .imgs{
+        position: relative;
+        left: -10%;
+       top: 30%;
+        }
+        
 }
